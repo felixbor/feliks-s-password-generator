@@ -48,14 +48,14 @@ if (inputnumbers === "Y") {
 if (inspcharacter === "Y") {
   finalUserChoice +=spcharacters}
  console.log (finalUserChoice);
- let array = []
+ let newPW = []
   for (var i = 0; i < passwordlength; i++) {
   var randomNumber = Math.floor(Math.random() * finalUserChoice.length);
-  console.log(array)
-   array.push(finalUserChoice[randomNumber])
+  console.log(newPW)
+   newPW.push(finalUserChoice[randomNumber])
    
  }
-var generatePassword = array.join('');
+var generatePassword = newPW.join('');
    console.log(generatePassword);
    return generatePassword
 }
