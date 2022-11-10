@@ -5,5 +5,5 @@ The password generator provides a user with a secure password based on the user 
 github repo:
 https://github.com/felixbor/feliks-s-password-generator
 page:https://felixbor.github.io/feliks-s-password-generator/
-![screnshot of the project](/screenshot.jpg)
+ ![screnshot of the project](screenshot.jpg)
  
